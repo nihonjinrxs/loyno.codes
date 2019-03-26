@@ -1,0 +1,38 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://loyno.codes
+baseurl: ""
+logo-image: "logo.svg"
+title: Center for Software Engineering<br/>and Structured Problem Solving
+email: rharvey@loyno.edu
+author: Ryan B. Harvey
+description: > # "Write an awesome description for your new site here. 
+  An educational center of the Loyola University New Orleans Department of
+  Mathematics and Computer Science with a mission to make building software
+  a skill in every graduate's toolbox for the future through education,
+  project support, and service to the community.
+copyright: 'Copyright &copy; 2019 Loyola University New Orleans. Licensed under Creative Commons CC-BY-SA 4.0.'
+credits: 'Credits: This site was created with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> using the <a href="https://github.com/swcool/landing-page-theme" target="_blank">Landing Page theme</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/LoynoCodes
+  - title: github
+    url: https://github.com/loyno-mathcs/loyno.codes
+  - title: slack
+    url: https://loyno-codes.slack.com
+

@@ -1,0 +1,34 @@
+<section id="contact">
+	<div class="banner">
+		<div class="container">
+
+			<div class="row banner-contact">
+				<div class="col-lg-6">
+					<h2 class="banner-header">Keep in Touch</h2>
+				</div>
+				<div class="col-lg-6">
+					<div class="row">
+						<ul class="list-inline banner-social-buttons">
+							{% for social in site.social %}
+							<li>
+								<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+					<div class="row contact">
+						<p class="contact-header">Enter your email and we'll stay in touch!</p>
+						<form class="contact-form" action="POST" href="#">
+							<input class="contact-input" type="email" placeholder="Email address"/>
+							<button class="action" type="submit">Get Updates</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /.container -->
+
+	</div>
+</section>
+<!-- /.banner -->
