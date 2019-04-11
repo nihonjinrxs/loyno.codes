@@ -9,6 +9,7 @@
     --main-bg-color: #f8f8f8;
     --main-highlight-color: #660000; /* #e7e7e7;*/
     --main-copy-color: #181818;
+    --brand-copy-faded: #888888;
     --brand-primary-maroon: #660000;
     --brand-primary-gold: #f4aa00;
     --brand-primary-black: #060606;
@@ -69,6 +70,23 @@ h6 {
     display: inline-block;
     font-size: 1.4em;
     font-weight: 700;
+}
+.img-credit {
+    font-size: 0.8em;
+    color: var(--brand-copy-faded);
+}
+.img-credit > a {
+    color: var(--brand-copy-faded);
+    text-decoration: underline;
+}
+.img-credit > a:hover {
+    color: var(--brand-primary-maroon);
+}
+.img-credit > a:active {
+    color: var(--main-copy-black);
+}
+.img-credit > a:visited {
+    color: var(--brand-copy-faded);
 }
 
 .intro-header {

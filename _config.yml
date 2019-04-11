@@ -5,13 +5,14 @@
 url: http://loyno.codes
 baseurl: ""
 logo-image: "logo.svg"
-title: Center for Software<br/>Engineering for Good
+title: Center for Ethical Computing<br/>and Public-benefit Software
 email: rharvey@loyno.edu
 author: Ryan B. Harvey
 description: > # "Write an awesome description for your new site here. 
   An educational center of the Loyola University New Orleans Department of
-  Mathematics and Computer Science with a mission to make building software
-  a skill in every graduate's toolbox for the future through education,
+  Mathematics and Computer Science with a mission to extend the conversation
+  on ethics in the software engineering profession and make experience building
+  ethical, public-benefit software available for every student through education,
   project support, and service to the community.
 copyright: 'Copyright &copy; 2019 Loyola University New Orleans. Licensed under Creative Commons CC-BY-SA 4.0.'
 credits: 'Credits: This site was created with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> using the <a href="https://github.com/swcool/landing-page-theme" target="_blank">Landing Page theme</a>.'
